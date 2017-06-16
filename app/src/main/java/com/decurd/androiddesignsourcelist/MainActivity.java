@@ -16,6 +16,7 @@ import com.decurd.androiddesignsourcelist.animation.Animation1;
 import com.decurd.androiddesignsourcelist.animation.Animation2;
 import com.decurd.androiddesignsourcelist.customview.CustomView1Main;
 import com.decurd.androiddesignsourcelist.transition.Transition1;
+import com.decurd.androiddesignsourcelist.transition.Transition2Main;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         addItem("Animation1", "image change / 확대 후 축소", Animation1.class);
         addItem("Animation2", "Shake Interpolator", Animation2.class);
         addItem("Transition1", "이미지 변경", Transition1.class);
+        addItem("Transition2", "Activity 이동시 이미지 자연스럽게 몰핑", Transition2Main.class);
         addItem("CustomView1", "Alert Dialog 2종", CustomView1Main.class);
 
         // Collections.reverse(mDataList);
