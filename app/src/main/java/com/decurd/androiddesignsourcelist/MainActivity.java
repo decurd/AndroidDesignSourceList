@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         addItem("Animation1", "좌에서 우로 이동 / 확대 후 축소", Animation1.class);
         addItem("Animation2", "Shake Interpolator", Animation2.class);
         addItem("Transition1", "이미지 변경", Transition1.class);
-        addItem("Transition2", "Activity 이동시 이미지 자연스럽게 몰핑", Transition2Main.class);
+        addItem("Transition2", "이미지 클릭하면 몰핑되면서 Activity 이동", Transition2Main.class);
         addItem("CustomView1", "Alert Dialog 2종", CustomView1Main.class);
 
         // Collections.reverse(mDataList);
