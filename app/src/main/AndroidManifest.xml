@@ -24,7 +24,8 @@
             android:theme="@style/Theme.AppCompat.Dialog" />
         <activity android:name=".animation.Animation2" />
         <activity android:name=".transition.Transition2Main" />
-        <activity android:name=".transition.Transition2Page1"></activity>
+        <activity android:name=".transition.Transition2Page1" />
+        <activity android:name=".webview.GifPlay"></activity>
     </application>
 
 </manifest>

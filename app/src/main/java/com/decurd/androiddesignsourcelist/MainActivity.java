@@ -17,6 +17,7 @@ import com.decurd.androiddesignsourcelist.animation.Animation2;
 import com.decurd.androiddesignsourcelist.customview.CustomView1Main;
 import com.decurd.androiddesignsourcelist.transition.Transition1;
 import com.decurd.androiddesignsourcelist.transition.Transition2Main;
+import com.decurd.androiddesignsourcelist.webview.GifPlay;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -24,6 +25,7 @@ import java.util.List;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
+
 
     private ListView mListView;
     private ArrayList<Map<String, Object>> mDataList;
@@ -43,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
         addItem("Transition1", "이미지 변경", Transition1.class);
         addItem("Transition2", "이미지 클릭하면 몰핑되면서 Activity 이동", Transition2Main.class);
         addItem("CustomView1", "Alert Dialog 2종", CustomView1Main.class);
+        addItem("WebView GIF", "WebView로 gif 재생하기", GifPlay.class);
 
         // Collections.reverse(mDataList);
 
