@@ -12,6 +12,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.decurd.androiddesignsourcelist.activitytransistion.ActivityTransition;
 import com.decurd.androiddesignsourcelist.animation.Animation1;
 import com.decurd.androiddesignsourcelist.animation.Animation2;
 import com.decurd.androiddesignsourcelist.customview.CustomView1Main;
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         addItem("Transition2", "이미지 클릭하면 몰핑되면서 Activity 이동", Transition2Main.class);
         addItem("CustomView1", "Alert Dialog 2종", CustomView1Main.class);
         addItem("WebView GIF", "WebView로 gif 재생하기", GifPlay.class);
+        addItem("Activity 전환방향", "Activity 전환방향", ActivityTransition.class);
 
         // Collections.reverse(mDataList);
 
