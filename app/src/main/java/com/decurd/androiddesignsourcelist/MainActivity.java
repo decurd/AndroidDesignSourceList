@@ -15,6 +15,7 @@ import android.widget.Toast;
 import com.decurd.androiddesignsourcelist.activitytransistion.ActivityTransition;
 import com.decurd.androiddesignsourcelist.animation.Animation1;
 import com.decurd.androiddesignsourcelist.animation.Animation2;
+import com.decurd.androiddesignsourcelist.animation.Animation3;
 import com.decurd.androiddesignsourcelist.customview.CustomView1Main;
 import com.decurd.androiddesignsourcelist.transition.Transition1;
 import com.decurd.androiddesignsourcelist.transition.Transition2Main;
@@ -41,13 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
         // 데이터
         mDataList = new ArrayList<>();
-        addItem("Animation1", "좌에서 우로 이동 / 확대 후 축소", Animation1.class);
-        addItem("Animation2", "Shake Interpolator", Animation2.class);
-        addItem("Transition1", "이미지 변경", Transition1.class);
-        addItem("Transition2", "이미지 클릭하면 몰핑되면서 Activity 이동", Transition2Main.class);
-        addItem("CustomView1", "Alert Dialog 2종", CustomView1Main.class);
-        addItem("WebView GIF", "WebView로 gif 재생하기", GifPlay.class);
-        addItem("Activity 전환방향", "Activity 전환방향", ActivityTransition.class);
+        addItem("좌에서 우로 이동 / 확대 후 축소", "animation", Animation1.class);
+        addItem("Shake Interpolator", "animation", Animation2.class);
+        addItem("이미지 변경", "transition", Transition1.class);
+        addItem("이미지 클릭하면 몰핑되면서 Activity 이동", "transition", Transition2Main.class);
+        addItem("Alert Dialog 2종", "custom view", CustomView1Main.class);
+        addItem("WebView로 gif 재생하기", "others", GifPlay.class);
+        addItem("Activity 전환방향", "transition", ActivityTransition.class);
+        addItem("Expan and Collase Animation", "animation", Animation3.class);
 
         // Collections.reverse(mDataList);
 
