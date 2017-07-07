@@ -17,6 +17,7 @@ import com.decurd.androiddesignsourcelist.animation.Animation1;
 import com.decurd.androiddesignsourcelist.animation.Animation2;
 import com.decurd.androiddesignsourcelist.animation.Animation3;
 import com.decurd.androiddesignsourcelist.customview.CustomView1Main;
+import com.decurd.androiddesignsourcelist.customview.ToggleButtons;
 import com.decurd.androiddesignsourcelist.transition.Transition1;
 import com.decurd.androiddesignsourcelist.transition.Transition2Main;
 import com.decurd.androiddesignsourcelist.webview.GifPlay;
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
         addItem("WebView로 gif 재생하기", "others", GifPlay.class);
         addItem("Activity 전환방향", "transition", ActivityTransition.class);
         addItem("Expan and Collase Animation", "animation", Animation3.class);
+        addItem("아이폰 스타일 토글 버튼", "native 기반", ToggleButtons.class);
 
         // Collections.reverse(mDataList);
 

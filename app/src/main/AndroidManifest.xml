@@ -28,7 +28,8 @@
         <activity android:name=".webview.GifPlay" />
         <activity android:name=".activitytransistion.ActivityTransition" />
         <activity android:name=".activitytransistion.ActivityTransition1" />
-        <activity android:name=".animation.Animation3"></activity>
+        <activity android:name=".animation.Animation3" />
+        <activity android:name=".customview.ToggleButtons"></activity>
     </application>
 
 </manifest>
